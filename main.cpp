@@ -3,6 +3,10 @@
 #include "TD1/ex2.cpp"
 #include "TD1/ex3.cpp"
 #include "TD1/ex5.cpp"
+#include "TD2/ex0_cours.cpp"
+#include "TD2/exo1_cours.cpp"
+#include "TD2/exo2_cours.cpp"
+
 
 using namespace std;
 
@@ -13,5 +17,9 @@ int main() {
     // ex1();
     // ex2();
     // ex3();
-    ex5();
+    // ex5();
+    // exempleTd2();
+    // exemple1Td2();
+    exemple2Td2();
+
 }
