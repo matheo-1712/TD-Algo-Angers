@@ -3,14 +3,14 @@
 const int notesSize = 16;
 float notes[notesSize];
 
-int moyenne(float notesTab[])
+int moyenne(float notesTab[], int taille)
 {
     float sum = 0;
-    for (int i = 0; i < notesSize; i++)
+    for (int i = 0; i < taille; i++)
     {
         sum += notesTab[i];
     }
-    int moyenne = sum / notesSize;
+    int moyenne = sum / taille;
     return moyenne;
 }
 
@@ -21,7 +21,7 @@ void exemple2Td2()
     {
         std::cin >> notes[i];
     }
-    float moyenneValue = moyenne(notes);
+    float moyenneValue = moyenne(notes, notesSize);
 
     std::cout << "La moyenne est de : " << moyenneValue << std::endl;
 
