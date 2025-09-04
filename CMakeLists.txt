@@ -9,4 +9,5 @@ add_executable(Td0 main.cpp
         TD2/ex0_cours.cpp
         TD2/exo1_cours.cpp
         TD2/exo2_cours.cpp
+        TD2/exo3_cours.cpp
 )
