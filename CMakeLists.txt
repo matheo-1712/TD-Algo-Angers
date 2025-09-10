@@ -13,4 +13,5 @@ add_executable(Td0 main.cpp
         TD2/td/ex1.cpp
         TD2/td/ex2.cpp
         TD2/td/ex3.cpp
+        TD2/td/ex4.cpp
 )
