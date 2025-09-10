@@ -11,6 +11,7 @@
 #include "TD2/td/ex2.cpp"
 #include "TD2/td/ex3.cpp"
 #include "TD2/td/ex4.cpp"
+#include "TD2/td/ex5.cpp"
 
 using namespace std;
 
@@ -29,6 +30,7 @@ int main() {
     // ex1_td2();
     // ex2_td2();
     // ex3_td2();
-    ex4_td2();
+    // ex4_td2();
+    ex5_td2();
 
 }
