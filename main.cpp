@@ -8,7 +8,7 @@
 #include "TD2/exo2_cours.cpp"
 #include "TD2/exo3_cours.cpp"
 #include "TD2/td/ex1.cpp"
-
+#include "TD2/td/ex2.cpp"
 
 using namespace std;
 
@@ -24,6 +24,7 @@ int main() {
     // exemple1Td2();
     // exemple2Td2();
     // exemple3Td2();
-    ex1_td2();
+    // ex1_td2();
+    ex2_td2();
 
 }

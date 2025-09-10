@@ -2,7 +2,7 @@
 
 int nb;
 
-void nombrePremier(int nb){
+int nombrePremier(int nb){
     int nbMultiplicateur = 0;
     for (int i = 1; i <= nb ; i++) {
         if (nb % i == 0) {
