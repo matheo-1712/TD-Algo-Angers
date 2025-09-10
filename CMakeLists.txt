@@ -12,4 +12,5 @@ add_executable(Td0 main.cpp
         TD2/exo3_cours.cpp
         TD2/td/ex1.cpp
         TD2/td/ex2.cpp
+        TD2/td/ex3.cpp
 )
