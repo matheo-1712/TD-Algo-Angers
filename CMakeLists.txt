@@ -24,4 +24,11 @@ add_executable(Td0 main.cpp
         TD4/TD/exo5.cpp
         TD5/exo1_cours.cpp
         TD5/exo2_cours.cpp
+        TD5/TD/exo1.cpp
+        TD5/TD/exo2.cpp
+        TD5/TD/exo3.cpp
+        TD5/TD/exo4.cpp
+        TD5/TD/exo5.cpp
+        TD5/TD/exo6.cpp
+        TD5/TD/exo7.cpp
 )

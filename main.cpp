@@ -18,6 +18,13 @@
 #include "TD4/TD/exo3.cpp"
 #include "TD4/TD/exo4.cpp"
 #include "TD4/TD/exo5.cpp"
+#include "TD5/TD/exo1.cpp"
+#include "TD5/TD/exo2.cpp"
+#include "TD5/TD/exo3.cpp"
+#include "TD5/TD/exo4.cpp"
+#include "TD5/TD/exo5.cpp"
+#include "TD5/TD/exo6.cpp"
+#include "TD5/TD/exo7.cpp"
 
 using namespace std;
 
@@ -42,6 +49,14 @@ int main() {
     // ex2_td4();
     // ex3_td4();
     // ex4_td4();
-    ex5_td4();
+    // ex5_td4();
+    // ex1_td5();
+    // ex2_td5();
+    // ex3_td5();
+    // ex4_td5();
+    // ex5_td5();
+    // ex6_td5();
+    ex7_td5();
+
 
 }
