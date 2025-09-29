@@ -17,6 +17,7 @@
 #include "TD4/TD/exo2.cpp"
 #include "TD4/TD/exo3.cpp"
 #include "TD4/TD/exo4.cpp"
+#include "TD4/TD/exo5.cpp"
 
 using namespace std;
 
@@ -40,6 +41,7 @@ int main() {
     // ex1_td4();
     // ex2_td4();
     // ex3_td4();
-    ex4_td4();
+    // ex4_td4();
+    ex5_td4();
 
 }

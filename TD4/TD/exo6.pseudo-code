@@ -1,0 +1,12 @@
+Entrée: Chaines de caractère B et T
+Sortie: Vrai si b contient t, faux sinon
+
+n <- longeur(s)
+m <- longeur(t)
+
+Pour i allant de 0 à n - m
+    Trouve <- true
+    Pour j allant de 0 à m
+    trouve <- trouve ET s[i + j] = t[j]
+    Si trouve alors retourner vrai
+Retourner faux
