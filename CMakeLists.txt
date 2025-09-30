@@ -31,4 +31,7 @@ add_executable(Td0 main.cpp
         TD5/TD/exo5.cpp
         TD5/TD/exo6.cpp
         TD5/TD/exo7.cpp
+        TD5/TD/exo8.cpp
+        TD6/exo1_cours.cpp
+        TD6/TD/ex1.cpp
 )
