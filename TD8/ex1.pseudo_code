@@ -1,0 +1,12 @@
+    Fonction separe(ℓ, pair, impair):
+    Entrée: Une liste chaînée ℓ, une liste pair et impair
+
+        Tant que l.tete != nullptr
+            s <- l.tete.suivant
+                Si l.tete.elt est pair alors        | insererTete(pair, l.tete.elt)
+                    l.tete.suivant <- pair.tete     |
+                    pair.tete <- l.tete
+                Sinon
+                    l.tete.suivant <- impair.tete   | insererTete(impair, l.tete.elt)
+                    impair.tete <- l.tete           |
+            l.tete <- s

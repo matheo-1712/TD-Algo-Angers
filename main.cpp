@@ -28,6 +28,8 @@
 #include "TD5/TD/exo8.cpp"
 #include "TD6/exo1_cours.cpp"
 #include "TD6/TD/ex1.cpp"
+#include "TD7/exo1_cours.cpp"
+#include "TD7/TD/ex1.cpp"
 
 using namespace std;
 
@@ -62,5 +64,7 @@ int main() {
     // ex7_td5();
     // ex8_td5();
     // exo1_td6();
-    ex1_td6();
+    // ex1_td6();
+    // exo1_td7();
+    ex1_td7();
 }

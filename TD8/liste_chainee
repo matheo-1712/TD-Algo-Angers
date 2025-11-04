@@ -1,0 +1,35 @@
+1 Fonction insererApres(c, elt):
+    Entrée: Une cellule existante c, un élement elt à insérer
+    Sortie: Une cellule contenant elt insérée après c
+
+        2 n ← nouvelle Cellule;
+        3 n.elt ← elt;
+        4 n.suivante ← ℓ.tete;
+        5 ℓ.tete ← n;
+        6 retourner n;
+
+
+1 Fonction supprimerSuivante(c):
+    Entrée: Une cellule existante c dont on veut supprimer la
+    cellule suivante.
+        2 si c.suivante̸ = nullptr alors
+        3 s ← c.suivante.suivante;
+        4 libérer c.suivante;
+        5 c.suivante ← s
+
+
+1 Fonction supprimerPremier(l):
+    Entrée: Une liste chainée ℓ
+        s <- l.tete
+        l.tete = s.suivante;
+        libérer s;
+
+
+1 Fonction rechercher(ℓ, elt):
+    Entrée: Une liste chaînée ℓ, un élément elt.
+        2 c ← ℓ.tete;
+        3 tant que c̸ = nullptr faire
+        4 si c.elt = elt alors
+        5 retourner c;
+        6 c ← c.suivante;
+        7 retourner c;
