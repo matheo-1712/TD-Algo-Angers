@@ -1,0 +1,8 @@
+function inverser(p)
+P2 : Pile
+Tant que non vide(p)
+	empile(p2, depile(p))
+
+	return p2
+
+=> O(n)

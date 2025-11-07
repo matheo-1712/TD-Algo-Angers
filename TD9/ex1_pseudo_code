@@ -1,0 +1,16 @@
+Fonction f(p):
+Entrée: Une pile p
+2 si non estVide(p) alors
+3 elt ← depiler(p)
+4 afficher elt
+5 f(p)
+6 empiler(p, elt)
+1. Que fait cette fonction ?
+
+Cette fonction affiche les éléments d'une pile sans les retirer définitivement.
+Elle utilise la récursion pour dépiler chaque élément, l'afficher,
+puis le réempiler dans la pile, préservant ainsi l'état initial de la pile.
+
+2.
+
+(O)n

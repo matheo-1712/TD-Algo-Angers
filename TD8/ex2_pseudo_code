@@ -1,0 +1,59 @@
+structure Cellule {
+    elt: élément à stocker
+    suivante: Cellule
+    précédente: Cellule
+}
+
+structure ListeDouble {
+    premier: Cellule
+    dernier: Cellule
+}
+
+function insererApres(c, elt):
+n: Cellule
+n.elt <- elt
+n.précédente <- c
+n.suivante <- c.suivante
+c.suivante <- n
+si n.suivante != nullptr
+    n.suivant.precedente <- n
+
+LA FONCTION NE MET PAS À JOUR LA DERNIERE CELLULE DE LA STRUCTURE ListeDouble
+
+function insererAvant(c, elt):
+n: Cellule
+n.elt <- elt
+n.précédente <- c.precedente
+n.suivante <- c
+c.precedent <- n
+si n.precedente != nullptr
+    n.precedente.suivante <- n
+
+
+function insererPremier(l, elt):
+Si l.premier == nullptr
+    Cellule n
+    n.elt <- elt
+    n.precedent <- nullptr
+    n.suivante <- l.premier
+    l.premier <- n
+    retourne n
+sinon
+    n <- insererAvant(l.premier, elt)
+    l.premier <- n
+    retourne n
+
+function supprimer(l, c)
+Si c.suivant != nullptr
+    c.suivante.precedente <- c.precedente
+sinon
+    l.premier <- c.suivant
+
+function rechercherAvant(l, elt):
+n: Cellule
+n <- l.premier
+    while n != nullptr
+        Si n.elt == elt
+            retourne vrai
+        n <- n.suivante
+retourne faux
